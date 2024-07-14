@@ -1,0 +1,25 @@
+.pasos {
+  background-color: $primary-color;
+  color: $white;
+
+  &__container {
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: 5rem;
+
+    span {
+      display: block;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__grid {
+    padding-top: 5rem;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+}

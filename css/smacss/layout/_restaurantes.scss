@@ -1,0 +1,11 @@
+.restaurantes__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+
+  .restaurante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
